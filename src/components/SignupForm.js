@@ -10,6 +10,12 @@ class SignupForm extends React.Component {
     password: ''
   }
 
+  handleChange = (event) => {
+    this.setState({
+      [event.target.name] = event.target.value
+    })
+  }
+
   render() {
     return (
       <div>
