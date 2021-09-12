@@ -19,7 +19,14 @@ class SignupForm extends React.Component {
   render() {
     return (
       <div>
-        <p>TESTING</p>
+        <Container>
+          <Form>
+            <Form.Group>
+            <Form.Label>Username: </Form.Label>
+            <Form.Control type="text" name="username"></Form.Control>
+            </Form.Group>
+          </Form>
+        </Container>
       </div>
     )
   }
