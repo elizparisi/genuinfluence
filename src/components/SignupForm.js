@@ -6,7 +6,7 @@ class SignupForm extends React.Component {
   render() {
     return (
       <div>
-
+        <p>TESTING</p>
       </div>
     )
   }
