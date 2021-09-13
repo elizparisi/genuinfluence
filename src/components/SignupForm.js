@@ -26,6 +26,17 @@ class SignupForm extends React.Component {
             <Form.Label>Username: </Form.Label>
             <Form.Control type="text" name="username"></Form.Control>
             </Form.Group>
+
+            <Form.Group>
+            <Form.Label>Email: </Form.Label>
+            <Form.Control type="email" name="email"></Form.Control>
+            </Form.Group>
+
+            <Form.Group>
+            <Form.Label>Password: </Form.Label>
+            <Form.Control type="password" name="password"></Form.Control>
+            </Form.Group>
+
           </Form>
         </Container>
       </div>
