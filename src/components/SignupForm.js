@@ -37,6 +37,8 @@ class SignupForm extends React.Component {
             <Form.Control type="password" name="password"></Form.Control>
             </Form.Group>
 
+            <Button type="submit">Join</Button>
+
           </Form>
         </Container>
       </div>
