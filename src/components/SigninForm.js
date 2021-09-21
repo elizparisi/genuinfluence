@@ -3,6 +3,12 @@ import {Container, Form, Button} from 'react-bootstrap'
 
 class SigninForm extends React.Component {
 
+  // set local state
+  state = {
+    email: '',
+    password: ''
+  }
+
   render() {
     return (
       <div>
