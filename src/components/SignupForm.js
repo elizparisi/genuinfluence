@@ -17,6 +17,15 @@ class SignupForm extends React.Component {
     });
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault()
+    this.setState({
+      username: '',
+      email: '',
+      password: ''
+    })
+  }
+
   render() {
     return (
       <div>
