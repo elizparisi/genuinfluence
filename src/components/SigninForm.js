@@ -15,6 +15,14 @@ class SigninForm extends React.Component {
     });
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault()
+    this.setState({
+      email: '',
+      password: ''
+    })
+  }
+
   render() {
     return (
       <div>
