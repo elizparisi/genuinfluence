@@ -14,6 +14,7 @@ function App() {
         <p>
           GENUINFLUENCE
         </p>
+        <Home/>
         <SignupForm/>
         <SigninForm/>
         </div>
