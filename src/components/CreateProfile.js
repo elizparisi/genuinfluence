@@ -8,11 +8,15 @@ class CreateProfile extends React.Component {
       <div>
         <Container>
           <Form>
-          <Form.Group>
-          <Form.Label>Full Name: </Form.Label>
-          <Form.Control type="text" name="fullname"></Form.Control>
-          </Form.Group>
+            <Form.Group>
+            <Form.Label>Full Name: </Form.Label>
+            <Form.Control type="text" name="fullname"></Form.Control>
+            </Form.Group>
 
+            <Form.Group>
+            <Form.Label>Location: </Form.Label>
+            <Form.Control type="text" name="location"></Form.Control>
+            </Form.Group>
 
           </Form>
         </Container>
