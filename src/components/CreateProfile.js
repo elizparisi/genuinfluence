@@ -5,7 +5,13 @@ class CreateProfile extends React.Component {
 
   render() {
     return (
+      <div>
+        <Container>
+          <Form>
 
+          </Form>
+        </Container>
+      </div>
     )
   }
 }
