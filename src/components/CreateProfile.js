@@ -18,6 +18,11 @@ class CreateProfile extends React.Component {
             <Form.Control type="text" name="location"></Form.Control>
             </Form.Group>
 
+            <Form.Group>
+            <Form.Label>Age: </Form.Label>
+            <Form.Control type="number" name="age"></Form.Control>
+            </Form.Group>
+
           </Form>
         </Container>
       </div>
