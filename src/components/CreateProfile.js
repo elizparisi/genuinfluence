@@ -38,6 +38,11 @@ class CreateProfile extends React.Component {
             <Form.Control type="text" name="socialmedia"></Form.Control>
             </Form.Group>
 
+            <Form.Group>
+            <Form.Label>Followers: </Form.Label>
+            <Form.Control type="number" name="followers"></Form.Control>
+            </Form.Group>
+
           </Form>
         </Container>
       </div>
