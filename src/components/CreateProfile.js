@@ -9,6 +9,11 @@ class CreateProfile extends React.Component {
         <Container>
           <Form>
             <Form.Group>
+            <Form.Label>Profile Image: </Form.Label>
+            <Form.Control type="file" />
+            </Form.Group>
+
+            <Form.Group>
             <Form.Label>Full Name: </Form.Label>
             <Form.Control type="text" name="fullname"></Form.Control>
             </Form.Group>
