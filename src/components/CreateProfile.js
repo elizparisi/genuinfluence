@@ -14,6 +14,11 @@ class CreateProfile extends React.Component {
             </Form.Group>
 
             <Form.Group>
+            <Form.Label>Bio: </Form.Label>
+            <Form.Control type="textarea" name="bio"></Form.Control>
+            </Form.Group>
+
+            <Form.Group>
             <Form.Label>Location: </Form.Label>
             <Form.Control type="text" name="location"></Form.Control>
             </Form.Group>
