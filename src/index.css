@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,10 +11,10 @@ body {
   color: #fff;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .creators-button {
   font-family: 'Syne';
@@ -26,8 +28,8 @@ code {
 .users-button {
   font-family: 'Syne';
   background: black;
-  color:#e882b2;
-  border: 1px solid #e882b2;
+  color:#FF0883;
+  border: 1px solid #FF0883;
   padding: 25px 60px;
   margin: 25px;
 }
