@@ -47,6 +47,9 @@
   border: 0;
   border-radius: 5px;
   font-size: 20px;
+  color: #08FF08;
+  border: 1px solid;
+  padding: 100px 50px;
 }
 
 .signin-button {
@@ -85,4 +88,13 @@
   color: #FF0883;
   border: 1px solid;
   padding: 100px 50px;
+}
+
+.join-button {
+    display: inline-block;
+    font-weight: 400;
+    background: #FF0883;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
 }
