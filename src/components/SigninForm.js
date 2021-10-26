@@ -30,15 +30,15 @@ class SigninForm extends React.Component {
         <Form className="signin">
           <Form.Group>
           <Form.Label>Email: </Form.Label>
-          <Form.Control type="email" name="email"></Form.Control>
+          <Form.Control type="email" name="email" placeholder="email"></Form.Control>
           </Form.Group>
 
           <Form.Group>
           <Form.Label>Password: </Form.Label>
-          <Form.Control type="password" name="password"></Form.Control>
+          <Form.Control type="password" name="password" placeholder="password"></Form.Control>
           </Form.Group>
 
-          <Button type="submit">Sign In</Button>
+          <button className="signin-button" type="submit">Sign In</button>
 
         </Form>
       </Container>
