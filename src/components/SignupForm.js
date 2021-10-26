@@ -31,6 +31,8 @@ class SignupForm extends React.Component {
       <div>
         <Container>
           <Form className="signup-form">
+            <h1 className="signup-header">sign up now</h1>
+            <br></br>
             <Form.Group>
             <Form.Label>Username: </Form.Label>
             <Form.Control type="text" name="username" placeholder="username"></Form.Control>
@@ -45,8 +47,8 @@ class SignupForm extends React.Component {
             <Form.Label>Password: </Form.Label>
             <Form.Control type="password" name="password" placeholder="password"></Form.Control>
             </Form.Group>
-
-            <Button type="submit">Join</Button>
+            <br></br>
+            <button className="join-button" type="submit">join now!</button>
 
           </Form>
         </Container>
