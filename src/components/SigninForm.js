@@ -27,7 +27,7 @@ class SigninForm extends React.Component {
     return (
       <div>
       <Container>
-        <Form>
+        <Form className="signin">
           <Form.Group>
           <Form.Label>Email: </Form.Label>
           <Form.Control type="email" name="email"></Form.Control>
