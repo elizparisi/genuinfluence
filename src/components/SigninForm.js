@@ -28,6 +28,8 @@ class SigninForm extends React.Component {
       <div>
       <Container>
         <Form className="signin">
+          <h1 className="signin-header">sign in</h1>
+          <br></br>
           <Form.Group>
           <Form.Label>Email: </Form.Label>
           <Form.Control type="email" name="email" placeholder="email"></Form.Control>
