@@ -37,8 +37,8 @@ class SigninForm extends React.Component {
           <Form.Label>Password: </Form.Label>
           <Form.Control type="password" name="password" placeholder="password"></Form.Control>
           </Form.Group>
-
-          <button className="signin-button" type="submit">Sign In</button>
+          <br></br>
+          <button className="signin-button" type="submit">sign in</button>
 
         </Form>
       </Container>
