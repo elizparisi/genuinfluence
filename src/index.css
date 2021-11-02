@@ -112,3 +112,12 @@
   border: 1px solid;
   padding: 100px 50px;
 }
+
+.profile-button {
+  display: inline-block;
+  font-weight: 400;
+  background: #6300FF;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
