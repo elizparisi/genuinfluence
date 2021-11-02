@@ -7,7 +7,7 @@ class CreateProfile extends React.Component {
     return (
       <div>
         <Container>
-          <Form>
+          <Form className="profile-creator">
             <Form.Group>
             <Form.Label>Profile Image: </Form.Label>
             <Form.Control type="file" />
