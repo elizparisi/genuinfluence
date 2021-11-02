@@ -48,6 +48,7 @@ class CreateProfile extends React.Component {
             <Form.Control type="number" name="followers"></Form.Control>
             </Form.Group>
 
+            <br></br>
             <button className="profile-button" type="submit">create profile!</button>
 
           </Form>

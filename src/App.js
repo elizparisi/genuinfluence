@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import SignupForm from './components/SignupForm'
 import SigninForm from './components/SigninForm'
+import CreateProfile from './components/CreateProfile'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Home/>
         <SignupForm/>
         <SigninForm/>
+        <CreateProfile/>
         </div>
     </div>
   );
