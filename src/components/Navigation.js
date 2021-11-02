@@ -3,7 +3,7 @@ import {Container, Navbar, Nav} from 'react-bootstrap'
 
 const Navigation = (props) => {
   return (
-    <Navbar bg='dark' variant='dark'>
+    <Navbar className="navigation-page" bg='dark' variant='dark'>
       <Container>
       <Navbar.Brand href='#home'>GENUINFLUENCE</Navbar.Brand>
       <Nav className='me-auto'>

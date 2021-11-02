@@ -16,7 +16,15 @@
     monospace;
 } */
 
-.home-h1 {
+.homepage {
+  font-family: 'Syne';
+}
+
+.navigation-page {
+  font-family: 'Syne';
+}
+
+.about {
   font-family: 'Syne';
 }
 
