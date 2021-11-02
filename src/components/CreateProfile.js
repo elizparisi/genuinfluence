@@ -10,42 +10,42 @@ class CreateProfile extends React.Component {
           <Form className="profile-creator">
             <Form.Group>
             <Form.Label>Profile Image: </Form.Label>
-            <Form.Control type="file" />
+            <Form.Control type="file" placeholder="profile image" />
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Full Name: </Form.Label>
-            <Form.Control type="text" name="fullname"></Form.Control>
+            <Form.Control type="text" name="fullname" placeholder="fullname"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Bio: </Form.Label>
-            <Form.Control type="textarea" name="bio"></Form.Control>
+            <Form.Control type="textarea" name="bio" placeholder="bio"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Location: </Form.Label>
-            <Form.Control type="text" name="location"></Form.Control>
+            <Form.Control type="text" name="location" placeholder="location"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Age: </Form.Label>
-            <Form.Control type="number" name="age"></Form.Control>
+            <Form.Control type="number" name="age" placeholder="age"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Category: </Form.Label>
-            <Form.Control type="text" name="category"></Form.Control>
+            <Form.Control type="text" name="category" placeholder="select category"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Social Media: </Form.Label>
-            <Form.Control type="text" name="socialmedia"></Form.Control>
+            <Form.Control type="text" name="socialmedia" placeholder="social media channel"></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Followers: </Form.Label>
-            <Form.Control type="number" name="followers"></Form.Control>
+            <Form.Control type="number" name="followers" placeholder="followers"></Form.Control>
             </Form.Group>
 
             <br></br>
