@@ -19,11 +19,11 @@ function App() {
         </p>
           <Router>
             <Routes>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/join" component={SignupForm}/>
-              <Route path="/login" component={SigninForm}/>
-              <Route path="/create-profile" component={CreateProfile}/>
+              <Route exact path="/" element={<Home/>} />
+              <Route path="/about" element={<About/>} />
+              <Route path="/join" element={<SignupForm/>}/>
+              <Route path="/login" element={<SigninForm/>}/>
+              <Route path="/create-profile" element={<CreateProfile/>}/>
             </Routes>
           </Router>
 
