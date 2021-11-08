@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Navigation from './components/Navigation'
 import Home from './components/Home'
 import About from './components/About'
@@ -17,15 +17,16 @@ function App() {
         <p>
           GENUINFLUENCE
         </p>
-        <Router>
-          <Routes>
-            <Route path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/signup" component={SignupForm}/>
-            <Route path="/sigin" component={SigninForm}/>
-            <Route path="/create-profile" component={CreateProfile}/>
-          </Routes>
-        </Router>
+          <Router>
+            <Routes>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/join" component={SignupForm}/>
+              <Route path="/login" component={SigninForm}/>
+              <Route path="/create-profile" component={CreateProfile}/>
+            </Routes>
+          </Router>
+
         </div>
     </div>
   );
