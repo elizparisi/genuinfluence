@@ -17,11 +17,13 @@ function App() {
         <p>
           GENUINFLUENCE
         </p>
-        <About/>
-        <Home/>
-        <SignupForm/>
-        <SigninForm/>
-        <CreateProfile/>
+        <Router>
+          <Route path="/" component={Home} />
+          <About path="/about" component={About} />
+          <SignupForm/>
+          <SigninForm/>
+          <CreateProfile/>
+        </Router>
         </div>
     </div>
   );
