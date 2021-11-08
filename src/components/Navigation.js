@@ -7,11 +7,11 @@ const Navigation = (props) => {
       <Container>
       <Navbar.Brand href='#home'>GENUINFLUENCE</Navbar.Brand>
       <Nav className='me-auto'>
-        <Nav.Link href='#home'>HOME</Nav.Link>
-        <Nav.Link href='#login'>LOGIN</Nav.Link>
-        <Nav.Link href='#join'>JOIN</Nav.Link>
-        <Nav.Link href='#about'>ABOUT</Nav.Link>
-        <Nav.Link href='#talent'>VIEW TALENT</Nav.Link>
+        <Nav.Link href="/">HOME</Nav.Link>
+        <Nav.Link href="/login">LOGIN</Nav.Link>
+        <Nav.Link href="/join">JOIN</Nav.Link>
+        <Nav.Link href="/about">ABOUT</Nav.Link>
+        <Nav.Link href="/talent">VIEW TALENT</Nav.Link>
       </Nav>
       </Container>
     </Navbar>
