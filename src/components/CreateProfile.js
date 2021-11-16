@@ -21,6 +21,21 @@ class CreateProfile extends React.Component {
     })
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault()
+
+    this.setState({
+      profileimage: '',
+      fullname: '',
+      bio: '',
+      location: '',
+      age: '',
+      category: '',
+      socialmedia: '',
+      followers: ''
+    })  
+  }
+
   render() {
     return (
       <div>
