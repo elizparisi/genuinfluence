@@ -15,6 +15,12 @@ class CreateProfile extends React.Component {
     followers: ''
   }
 
+  handleChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+
   render() {
     return (
       <div>
