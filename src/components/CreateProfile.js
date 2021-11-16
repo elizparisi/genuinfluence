@@ -3,6 +3,18 @@ import {Container, Form, Button} from 'react-bootstrap'
 
 class CreateProfile extends React.Component {
 
+  // set local state
+  state = {
+    profileimage: '',
+    fullname: '',
+    bio: '',
+    location: '',
+    age: '',
+    category: '',
+    socialmedia: '',
+    followers: ''
+  }
+
   render() {
     return (
       <div>
@@ -10,7 +22,7 @@ class CreateProfile extends React.Component {
           <Form className="profile-creator">
             <Form.Group>
             <Form.Label>Profile Image: </Form.Label>
-            <Form.Control type="file" placeholder="profile image" />
+            <Form.Control type="file" placeholder="profileimage" />
             </Form.Group>
 
             <Form.Group>
