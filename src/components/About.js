@@ -6,8 +6,12 @@ const About = () => {
   return (
   <div className="about">
     <Container>
-      <h2>services</h2>
 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam eleifend mi in nulla. Cum sociis natoque penatibus et magnis. Id ornare arcu odio ut sem nulla pharetra diam. Viverra tellus in hac habitasse platea dictumst vestibulum. Mi sit amet mauris commodo quis. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Dignissim suspendisse in est ante in nibh mauris cursus. Scelerisque viverra mauris in aliquam sem. Ut placerat orci nulla pellentesque dignissim enim sit. Volutpat odio facilisis mauris sit. Massa tempor nec feugiat nisl pretium. Aliquam malesuada bibendum arcu vitae elementum curabitur. Enim ut tellus elementum sagittis vitae et leo. Dui accumsan sit amet nulla. Feugiat in fermentum posuere urna nec.
+      <br></br>
+      Diam vulputate ut pharetra sit amet aliquam id diam. Massa sapien faucibus et molestie. Justo laoreet sit amet cursus sit amet dictum. Massa vitae tortor condimentum lacinia quis vel eros. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Pharetra et ultrices neque ornare. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Massa tempor nec feugiat nisl pretium fusce id velit ut. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Maecenas ultricies mi eget mauris pharetra. Velit dignissim sodales ut eu sem integer vitae justo eget. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Nisl vel pretium lectus quam id leo in. Tempor orci dapibus ultrices in iaculis nunc sed augue. Quam lacus suspendisse faucibus interdum. Sed euismod nisi porta lorem mollis aliquam. Faucibus nisl tincidunt eget nullam non nisi est. Velit scelerisque in dictum non consectetur a erat nam.</p>
+
+      <h2>services</h2>
 
       <CardGroup>
   <Card>
