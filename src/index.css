@@ -23,6 +23,10 @@
   margin: 100px 0;
 }
 
+.homepage p {
+  margin: 50px 100px;
+}
+
 .navigation-page {
   font-family: 'Syne';
 }
@@ -37,7 +41,7 @@
   color:#08FF08;
   border: 1px solid #08FF08;
   padding: 25px 50px;
-  margin: 25px;
+  margin: 50px 25px;
 }
 
 .users-button {
@@ -46,7 +50,7 @@
   color:#FF0883;
   border: 1px solid #FF0883;
   padding: 25px 60px;
-  margin: 25px;
+  margin: 50px 25px;
 }
 
 .signin {
