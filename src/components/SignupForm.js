@@ -30,7 +30,7 @@ class SignupForm extends React.Component {
     return (
       <div>
         <Container>
-          <Form className="signup-form">
+          <Form className="signup-form" onSubmit={this.handleSubmit}>
             <h1 className="signup-header">sign up now</h1>
             <br></br>
             <Form.Group>
