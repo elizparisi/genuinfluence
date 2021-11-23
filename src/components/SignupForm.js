@@ -35,17 +35,17 @@ class SignupForm extends React.Component {
             <br></br>
             <Form.Group>
             <Form.Label>Username: </Form.Label>
-            <Form.Control type="text" name="username" placeholder="username"></Form.Control>
+            <Form.Control type="text" name="username" placeholder="username" value={this.state.username}></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Email: </Form.Label>
-            <Form.Control type="email" name="email" placeholder="email"></Form.Control>
+            <Form.Control type="email" name="email" placeholder="email" value={this.state.email}></Form.Control>
             </Form.Group>
 
             <Form.Group>
             <Form.Label>Password: </Form.Label>
-            <Form.Control type="password" name="password" placeholder="password"></Form.Control>
+            <Form.Control type="password" name="password" placeholder="password" value={this.state.password}></Form.Control>
             </Form.Group>
             <br></br>
             <button className="join-button" type="submit">join now!</button>
