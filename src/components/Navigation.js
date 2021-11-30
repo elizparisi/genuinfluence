@@ -12,6 +12,7 @@ const Navigation = (props) => {
         <Nav.Link href="/join">JOIN</Nav.Link>
         <Nav.Link href="/about">ABOUT</Nav.Link>
         <Nav.Link href="/talent">VIEW TALENT</Nav.Link>
+        <Nav.Link href="/create-profile">CREATE PROFILE</Nav.Link>
       </Nav>
       </Container>
     </Navbar>
