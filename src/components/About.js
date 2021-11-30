@@ -15,7 +15,8 @@ const About = () => {
 
       <CardGroup>
   <Card className="service-card">
-    <Card.Body>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body className="service-one">
       <Card.Title>Showcase Your Work</Card.Title>
       <Card.Text>
         Our platform allows creators like you to showcase your work. Expand your reach and get new clients. Elevate your profile to the next level.
@@ -24,7 +25,7 @@ const About = () => {
   </Card>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
+    <Card.Body className="service-two">
       <Card.Title>Card title</Card.Title>
       <Card.Text>
         This card has supporting text below as a natural lead-in to additional
@@ -34,7 +35,7 @@ const About = () => {
   </Card>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
+    <Card.Body className="service-three">
       <Card.Title>Card title</Card.Title>
       <Card.Text>
         This is a wider card with supporting text below as a natural lead-in to
