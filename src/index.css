@@ -139,5 +139,21 @@
 
 .card-body {
   background: #212529;
-  color: #fff;
+}
+
+.card-title {
+  font-family: 'Space Grotesk';
+  text-transform: uppercase;
+}
+
+.service-one {
+  color: #8725AC
+}
+
+.service-two {
+  color: #FF0883;
+}
+
+.service-three {
+  color: #08FF08;
 }
