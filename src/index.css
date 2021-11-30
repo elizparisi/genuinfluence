@@ -136,3 +136,8 @@
   text-decoration: none;
   border-radius: 5px;
 }
+
+.card-body {
+  background: #212529;
+  color: #fff;
+}
