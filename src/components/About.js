@@ -19,7 +19,7 @@ const About = () => {
     <Card.Body className="service-one">
       <Card.Title>Showcase Your Work</Card.Title>
       <Card.Text>
-        Our platform allows creators like you to showcase your work. Expand your reach and get new clients. Elevate your profile to the next level.
+        Our platform allows creators like you to showcase your content, book jobs, and get paid for your work all under one roof.
       </Card.Text>
     </Card.Body>
   </Card>
@@ -28,8 +28,7 @@ const About = () => {
     <Card.Body className="service-two">
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Creators-increase visibilty, expand your reach and build your client roster. Take your career to the next level. <br></br> Brands-discover authentic influencers who create amazing content and find the best fit for your next creator partnership.
       </Card.Text>
     </Card.Body>
   </Card>
