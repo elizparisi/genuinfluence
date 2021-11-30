@@ -14,13 +14,11 @@ const About = () => {
       <h2>services</h2>
 
       <CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+  <Card className="service-card">
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Showcase Your Work</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        Our platform allows creators like you to showcase your work. Expand your reach and get new clients. Elevate your profile to the next level.
       </Card.Text>
     </Card.Body>
   </Card>
