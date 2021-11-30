@@ -33,7 +33,7 @@ class CreateProfile extends React.Component {
       category: '',
       socialmedia: '',
       followers: ''
-    })  
+    })
   }
 
   render() {
@@ -41,6 +41,7 @@ class CreateProfile extends React.Component {
       <div>
         <Container>
           <Form className="profile-creator">
+            <h1>Create Profile</h1>
             <Form.Group>
             <Form.Label>Profile Image: </Form.Label>
             <Form.Control type="file" placeholder="profileimage" />
